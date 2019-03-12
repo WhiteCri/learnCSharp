@@ -13,6 +13,7 @@ namespace HelloWorld._4장
             Console.WriteLine($"{num ?? 0}");
 
             string str = null;
+
             Console.WriteLine($"{str ?? "Default"}");
 
             str = "Specific";
